@@ -1,7 +1,8 @@
 # machine-learning-challenge
 ## Machine Learning Homework - Exoplanet Exploration
 
-### Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
+### Instructions
+Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
 
 ## Assumptions and Limitations
 Due to the complexity of the features and lack of domain knowledge, it was difficult to reduce the number of features with any degree of confidence.  They already appeared to have been reduced from the data available on the website.  The Support Vector Machine classifier was tried twice, once with the full set of features from the CSV data file, and once with selectively reduced features.  The features that were eliminated were the error columns and the koi_tce_plnt_num (planet number).  The other classifiers were all built with the set of features given in the dataset.
